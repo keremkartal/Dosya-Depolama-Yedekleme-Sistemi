@@ -150,19 +150,4 @@ Proje kapsamında `sqlite3` veritabanında şu tablolar kullanılmaktadır:
 
 ---
 
-## Geliştirme & Genişletme
-
-Bu proje, temel bir iskelet olarak tasarlanmıştır ve daha ileri kullanım senaryolarına göre genişletilebilir:
-
-- **Şifreleme**: 
-  - Kullanıcı şifrelerini veritabanına kaydetmeden önce `hashlib` veya benzeri bir kütüphane ile şifreleyebilirsiniz.
-- **Log İşlemleri**:
-  - Uygulamadaki kritik aksiyonlar (giriş, şifre değiştirme, dosya paylaşma vs.) bir log dosyasına yazılabilir.
-  - Log dosyaları üzerinde anahtar kelime arama, anomali tespiti yapılabilir.
-- **Zamanlanmış Görevler (Senkronizasyon / Yedekleme)**:
-  - `threading` veya `schedule` kütüphaneleri kullanılarak periyodik yedekleme / senkronizasyon işlemleri gerçekleştirilebilir.
-- **Anormal Davranış Tespiti**:
-  - Kısa süre içinde çok sayıda hatalı giriş denemesi tespit edilirse kullanıcının hesabı kilitlenebilir ya da yöneticiyi uyarabilir.
-  - Aynı anda çok sayıda dosya yükleme veya paylaşma gibi durumlar incelenebilir.
-
 ---
