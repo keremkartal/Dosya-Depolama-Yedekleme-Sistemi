@@ -71,8 +71,8 @@ gibi işlemler desteklenmektedir.
 
 1. Bu projeyi GitHub reposundan klonlayın veya `.zip` olarak indirip açın:
    ```bash
-   git clone <repo-url>
-   cd <klonlanan-dizin>
+   git clone https://github.com/keremkartal/Dosya-Depolama-Yedekleme-Sistemi.git
+   cd Dosya-Depolama-Yedekleme-Sistemi
    ```
 
 2. Gerekli Python sürümüne ve Tkinter’a sahip olduğunuzdan emin olun.
